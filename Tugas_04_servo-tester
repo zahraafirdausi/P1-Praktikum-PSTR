@@ -1,3 +1,5 @@
+'''
+
 /* Tugas Praktikum 4
 Membuat servo tester menggunakan potensiometer sebagai masukan 
 G64180030 - Zahra Aulia Firdausi
@@ -23,3 +25,5 @@ void loop() {
     int angle = map(reading, 0, 1023, 0, 180); // untuk menyimpan sudut arus servo dalam derajat 0 - 180 derajat
     servo.write(angle); // output
 }
+
+'''
