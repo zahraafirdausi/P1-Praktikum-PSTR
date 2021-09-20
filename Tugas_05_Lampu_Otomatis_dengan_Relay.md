@@ -1,8 +1,13 @@
+```ino
 /*
  * Tugas Praktikum 5 - Lampu Otomatis dengan Relay - 
  * menggunakan sensor ultra sonik
  * Zahra Aulia Firdausi
  * G64180030
+ *
+ * Link Video Gdrive :
+ * https://drive.google.com/drive/folders/1QBIDJKHdXNS1NJSpTzG0DDssOQXPayry?usp=sharing
+ *
  */
 
 const int TRIG_PIN  = 7; // Deklarasi pin digital untuk pin TRIG sensor unltrasonik
@@ -54,3 +59,5 @@ void loop() {
 
   delay(500);
 }
+
+```
